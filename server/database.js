@@ -1,7 +1,7 @@
 const mongoose = require('mongoose'); //modulo para conectar nodejs con mongodb
 
 //configuramos los parámetros de la base de datos
-url = 'mongodb://localhost/empleados'; //creo esto crea una nueva base de datos en mongoDB
+url = 'mongodb+srv://sistema_empleados:Sistemaempleados.2021@sistema.80xwq.mongodb.net/empleados?retryWrites=true&w=majority'; //creo esto crea una nueva base de datos en mongoDB
 dbparams = {
     useCreateIndex: true,
     useNewUrlParser: true,
